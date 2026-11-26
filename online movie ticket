@@ -1,0 +1,113 @@
+# Online Movie Booking System
+
+## Project Description
+
+The Online Movie Booking System is a web-based application developed using React and Vite. It provides users with an easy and convenient way to browse movies, select seats, and manage their movie ticket bookings.
+
+The main objective of this project is to simplify the movie ticket booking process through a user-friendly web interface.
+
+## Features
+
+- **User Registration:** New users can create an account.
+- **User Login:** Registered users can log in to the application.
+- **Movie Listing:** Users can view available movies.
+- **Seat Booking:** Users can select seats for their preferred movie.
+- **My Bookings:** Users can view their booking details.
+- **Admin Movie Management:** Admin can manage movie information.
+- **Navigation:** Users can easily navigate between different pages.
+
+## Technologies Used
+
+- React.js
+- Vite
+- JavaScript
+- HTML
+- CSS
+- React Router
+- Axios
+- Lucide React
+
+## Project Structure
+
+```text
+online-movie-/
+│
+├── public/
+├── src/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## Requirements
+
+- Node.js
+- npm (Node Package Manager)
+- Visual Studio Code
+- Web Browser
+
+## Installation and Setup
+
+**Step 1: Clone the Repository**
+
+```bash
+git clone https://github.com/deepika1234k/online-movie-.git
+```
+
+**Step 2: Open the Project Folder**
+
+```bash
+cd online-movie-
+```
+
+**Step 3: Install Dependencies**
+
+```bash
+npm install
+```
+
+**Step 4: Start the Development Server**
+
+```bash
+npm run dev
+```
+
+**Step 5: Open the Application**
+
+Open the local URL displayed in the terminal, usually:
+
+```text
+http://localhost:5173/
+```
+
+## Available Commands
+
+| Command | Description |
+|---|---|
+| npm run dev | Starts the development server |
+| npm run build | Creates a production build |
+| npm run preview | Previews the production build |
+| npm run lint | Checks the code |
+
+## Future Enhancements
+
+- Integration of a backend and database.
+- Online payment gateway integration.
+- Secure user authentication.
+- E-ticket generation.
+- Booking confirmation through email or SMS.
+- Movie search and filtering.
+
+## Author
+
+**Deepika K V**
+
+## GitHub Repository
+
+https://github.com/deepika1234k/online-movie-
