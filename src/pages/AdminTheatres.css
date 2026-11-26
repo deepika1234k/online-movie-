@@ -1,0 +1,48 @@
+
+.admin-theatres {
+  padding: 30px;
+  color: white;
+}
+
+.admin-theatres h1 {
+  color: #ff3b3b;
+  margin-bottom: 20px;
+}
+
+.theatre-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 450px;
+  margin-bottom: 30px;
+}
+
+.theatre-form input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background: #303030;
+  color: white;
+}
+
+.theatre-form button,
+.theatre-card button {
+  padding: 11px;
+  border: none;
+  border-radius: 6px;
+  background: #e50914;
+  color: white;
+  cursor: pointer;
+}
+
+.theatre-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.theatre-card {
+  background: #202020;
+  padding: 18px;
+  border-radius: 10px;
+}

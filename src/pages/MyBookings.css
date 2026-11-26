@@ -1,0 +1,37 @@
+
+.my-bookings {
+  min-height: 80vh;
+  padding: 40px 7%;
+  color: white;
+}
+
+.my-bookings h1 {
+  color: #e50914;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.booking-card {
+  background: #202020;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 650px;
+  border-radius: 10px;
+}
+
+.booking-card h2 {
+  color: #e50914;
+}
+
+.booking-card p {
+  margin: 12px 0;
+}
+
+.booking-card button {
+  background: #e50914;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

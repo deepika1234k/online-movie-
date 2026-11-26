@@ -1,0 +1,49 @@
+
+.admin-movies {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #202020;
+  color: white;
+  border-radius: 12px;
+}
+
+.admin-movies h1 {
+  color: #e50914;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.admin-movies form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admin-movies input,
+.admin-movies textarea {
+  padding: 12px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background: #333;
+  color: white;
+  font-size: 15px;
+}
+
+.admin-movies textarea {
+  min-height: 90px;
+}
+
+.admin-movies label {
+  color: white;
+}
+
+.admin-movies button {
+  padding: 13px;
+  background: #e50914;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}

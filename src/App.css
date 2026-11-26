@@ -1,0 +1,97 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #101010;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 7%;
+  background: #181818;
+}
+
+.navbar h2 {
+  color: #e50914;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-links a,
+.nav-links button {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links button {
+  background: #e50914;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: #e50914;
+}
+
+.hero {
+  min-height: 400px;
+  padding: 120px 20px;
+  text-align: center;
+  background: linear-gradient(90deg, #111, #401010);
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero p {
+  margin-bottom: 25px;
+  color: white;
+}
+
+.hero button {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 13px 28px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.movies {
+  text-align: center;
+  padding: 65px 20px;
+  min-height: 200px;
+  color: white;
+}
+
+.movie-card h1,
+.movie-card h2,
+.movie-card h3,
+.movie-title {
+  color: white !important;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #181818;
+  color: white;
+}
